@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #51a3f5;
+}
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #2091f9;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1b75d4;
+}
+
+/* Estilos para el botón de volver 
+a.btn-volver {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2091f9;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a.btn-volver:hover {
+    background-color: #0f6fd8;
+}
+*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    position: relative;
+    height: 300px; /* Ajusta la altura según tu imagen */
+    overflow: hidden; /* Para que el mensaje no se desborde */
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Para que la imagen cubra todo el contenedor */
+}
+
+.message-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.success-message {
+    color: green;
+}
+
+.error-message {
+    color: red;
+}
+
+.btn-volver {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #2091f9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-volver:hover {
+    text-decoration: underline;
+}
